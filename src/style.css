@@ -1,0 +1,52 @@
+/* palette {
+    light cream #dddedb
+    medium blue #28404f
+    dark blue #1b1c21
+    medium light green #768a78
+}*/
+
+@font-face {
+    font-family: jellee;
+    src: url(Jellee_1223/TTF/Jellee-Bold.ttf);
+}
+
+:root {
+    background-color: #1b1c21;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #dddedb;
+    color: #1b1c21;
+    width: 80vw;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+#content {
+    display:flex;
+    flex-direction: column;
+}
+
+.logo {
+    align-self: center;
+    width: 7rem;
+}
+
+.name {
+    font-family: jellee, sans-serif;
+    font-size: 3rem;
+    text-shadow: 1px 1px #28404f;
+    text-align: center;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+.intro {
+    background-color: #768a78;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 40%;
+    align-self: center;
+    border-left: solid 8px #28404f;
+}
