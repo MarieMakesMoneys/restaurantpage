@@ -1,17 +1,3 @@
-/* <!-- <div id="content">
-        <div class="main">
-            <ul class="nav">
-                <li>HOME</li>
-                <li>MENU</li>
-                <li>ABOUT US</li>
-            </ul>
-            <div class="about">
-                <img class="about-pic" src="../src/food-photographer-eV5PkVkDWDs-unsplash.jpg" alt="">
-                <div class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aperiam nam ducimus, voluptas voluptatibus dignissimos cum, magnam enim eveniet vel placeat ex dolorem officia dolorum! Doloribus at omnis veritatis mollitia.</div>
-            </div>
-        </div>
-    </div> --> */
-
 let container = document.querySelector('div#content')
 
 export default function displayAbout() {
