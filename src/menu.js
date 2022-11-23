@@ -26,37 +26,37 @@ export default function displayMenu() {
         {
             "name": "SALMON BAGEL",
             "descript": "poppy seeds bagel, cream cheese, smoked salmon",
-            "price": "...............$6"
+            "price": "$6"
         },
         {
             "name": "EGG BAGEL",
             "descript": "sesame seeds bagel, cream cheese, poached egg",
-            "price": "...............$4"
+            "price": "$4"
         },
         {
             "name": "AVOCADO BAGEL",
             "descript": "sesame seeds bagel, cream cheese, avocado",
-            "price": "...............$5"
+            "price": "$5"
         },
         {
             "name": "CREAM CHEESE BAGEL",
             "descript": "cream cheese on any bagel",
-            "price": "...............$6"
+            "price": "$6"
         },
         {
             "name": "MAKE YOUR OWN 1 BAGEL",
             "descript": "1 ingredient of choice",
-            "price": "...............$2.5"
+            "price": "$2.5"
         },
         {
             "name": "MAKE YOUR OWN 2 BAGEL",
             "descript": "2 ingredients of choice",
-            "price": "...............$5"
+            "price": "$5"
         },
         {
             "name": "MAKE YOUR OWN 3 BAGEL",
             "descript": "3 ingredients of choice",
-            "price": "...............$7"
+            "price": "$7"
         }
     ]
     for (const item of menuItems) {
