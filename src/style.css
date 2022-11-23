@@ -29,9 +29,15 @@ body {
     justify-content: space-between;
 }
 
-#content {
-    display:flex;
+.main {
+    background-color: #dddedbc2;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    gap: 1.5rem;
 }
 
 header {
@@ -45,15 +51,9 @@ header {
     margin: 1rem;
 }
 
-.main {
-    background-color: #dddedbc2;
-    border-radius: 2rem;
-    padding: 2rem;
+#content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: fit-content;
-    gap: 1.5rem;
 }
 
 .nav {
@@ -80,6 +80,7 @@ header {
     width: 60%;
     align-self: center;
     border: solid 1px #1b1c21;
+    margin-bottom: 4rem;
 }
 
 button {
