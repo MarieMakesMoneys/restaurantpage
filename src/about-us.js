@@ -6,7 +6,7 @@ export default function displayAbout() {
 
     let aboutPic = document.createElement('img')
     aboutPic.classList.add('about-pic')
-    aboutPic.setAttribute('src', '../src/food-photographer-eV5PkVkDWDs-unsplash.jpg')
+    aboutPic.setAttribute('src', 'restaurantpage/src/food-photographer-eV5PkVkDWDs-unsplash.jpg')
     about.appendChild(aboutPic)
     let aboutText = document.createElement('div')
     aboutText.classList.add('about-text')
